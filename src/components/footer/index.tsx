@@ -1,6 +1,19 @@
-import { montserrat, parisienne } from "@/app/layout";
+import { Parisienne, Montserrat } from "next/font/google";
+
 import { Facebook, Instagram, Mail, Twitter, Youtube } from "lucide-react";
 import React from "react";
+
+const parisienne = Parisienne({
+  subsets: ["latin"],
+  weight: ["400"],
+  variable: "--font-parisienne",
+});
+
+const montserrat = Montserrat({
+  subsets: ["latin"],
+  weight: ["400"],
+  variable: "--font-montserrat",
+});
 
 const Footer = () => {
   return (
