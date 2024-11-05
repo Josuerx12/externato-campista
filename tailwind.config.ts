@@ -14,7 +14,7 @@ const config: Config = {
       },
       fontFamily: {
         parisienne: ["var(--font-parisienne)"],
-        montserrat: ["var(--font-montiserrat)"],
+        montserrat: ["var(--font-montserrat)"],
       },
     },
   },

@@ -12,7 +12,7 @@ export const parisienne = Parisienne({
 export const montserrat = Montserrat({
   subsets: ["latin"],
   weight: ["400"],
-  variable: "--font-montiserrat",
+  variable: "--font-montserrat",
 });
 
 export const metadata: Metadata = {
